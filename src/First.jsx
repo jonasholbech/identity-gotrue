@@ -7,7 +7,7 @@ export default function First() {
     await identity
       .login({
         email: "jh@jonasholbech.dk",
-        password: "shh",
+        password: "veryshh",
       })
       .then((res) => console.log(res))
       .catch((e) => console.warn(e.message));
@@ -17,7 +17,7 @@ export default function First() {
 
     identity
       .signup({
-        password: "shh",
+        password: "veryshh",
         email: "jh@jonasholbech.dk",
         user_metadata: {
           full_name: "Jonas Holbech",
